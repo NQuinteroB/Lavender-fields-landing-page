@@ -1,0 +1,15 @@
+body {
+  font-size: 18px;
+}
+#site-header {
+  display: flex;
+}
+
+h1,h2 {
+  font-family: "Bodoni Moda", serif;
+  letter-spacing: 0.03em;
+}
+
+.img-main{
+  width: 250px;
+}
