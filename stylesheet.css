@@ -14,3 +14,11 @@ h1,h2 {
 .img-main{
   width: 250px;
 }
+
+figcaption {
+  color: rgb(95, 95, 140,0.8);
+}
+
+#gallery {
+  display: flex;
+}
