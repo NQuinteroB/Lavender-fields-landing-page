@@ -19,7 +19,6 @@ h1,h2 {
 
 figure {
   min-width: 250px;
-
   margin: 0;
   display: inline-block;
   /* overflow: hidden; */
@@ -40,6 +39,7 @@ figure:first-of-type img.img-main {
 figure:last-of-type img.img-main {
   object-position: bottom;
 }
+
 figcaption {
   color: rgb(95, 95, 140,0.8);
 }
