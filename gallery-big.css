@@ -1,0 +1,43 @@
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  gap: 4px;
+}
+
+figure {
+  margin: 0px;
+  position: relative;
+  display: block;
+}
+
+.img-main {
+  width: 100%;
+}
+
+.first .img-main, .bottom .img-main {
+  height: 250px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.middle {
+  display: flex;
+  gap: 8px;
+}
+
+figcaption {
+  /* display: none; */
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: dark background for readability */
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.9em;
+}
