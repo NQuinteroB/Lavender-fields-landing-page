@@ -2,7 +2,7 @@ body {
   font-family: "Livvic", sans-serif;
 }
 
-#gallery {
+.gallery {
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -16,17 +16,17 @@ figure {
   display: block;
 }
 
-.img-main {
+.gallery-img {
   width: 100%;
 }
 
-.first .img-main, .bottom .img-main {
+.gallery-top .gallery-img, .gallery-bottom .gallery-img {
   height: 250px;
   object-fit: cover;
   object-position: bottom;
 }
 
-.middle {
+.gallery-middle {
   display: flex;
   gap: 8px;
 }
